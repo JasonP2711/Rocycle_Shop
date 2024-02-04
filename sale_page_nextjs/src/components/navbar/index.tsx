@@ -34,7 +34,7 @@ function Navbar(prop:{}){
        <>
        <header  className="w-full">
         <div className="w-full">
-        <nav className=" flex justify-between items-center z-100 mx-auto">
+        <nav className=" flex justify-between items-center mx-auto">
             <div className=" pl-5">
                 <Image
                 src={Img1}
@@ -44,15 +44,15 @@ function Navbar(prop:{}){
                 className=''
                  />
             </div>
-            <div className={`md:static absolute md:w-auto bg-white w-full top-[10%] ${valueTop} opacity-90`}>
-                <ul className="flex md:flex-row flex-col  p-3 ">
+            <div className={`md:static absolute md:w-auto bg-white h-auto w-full top-[8%] ${valueTop} opacity-80  z-50`}>
+                <ul className="flex md:flex-row flex-col h-auto p-3 ">
                     <li className="mr-10 cursor-pointer hover:text-teal-700 capitalize text-base" onClick={() => handleRouter("/")}>Home</li>
                     <li className="mr-10 cursor-pointer hover:text-teal-700 capitalize text-base" onClick={() => handleRouter("/product")}>Product</li>
                     <li className="mr-10 cursor-pointer hover:text-teal-700 capitalize text-base" onClick={() => handleRouter("/brand")}>Brand</li>
                     <li className="mr-10 cursor-pointer hover:text-teal-700 capitalize text-base" onClick={() => handleRouter("/accessory")}>Accessory</li>
                     <li className="mr-10 cursor-pointer hover:text-teal-700 capitalize text-base" onClick={() => handleRouter("/aboutus")}>About us</li>
-                    <li className="flex pt-1">
-                        <input type="text" className="md:w-40 w-20 border rounded-3xl h-6"/>
+                    <li className="flex ">
+                        <input type="text" className="md:w-32 w-20 border rounded-3xl h-6"/>
                         <button className="pl-2"><IoSearchSharp/></button>
                     </li>
                 </ul>

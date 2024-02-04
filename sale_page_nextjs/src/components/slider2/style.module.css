@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+
+.container{
+    position: relative;
+}
+
+.slogan{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    font-size: 88px;
+    line-height: 4.8rem;
+    width: 500px;
+    /* background-color: red; */
+
+}
+
+.slogan > button{
+    width: 250px;
+    font-size: 22px;
+}
+
+.slogan > p{
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    .slogan{
+        position: absolute;
+        top: 45%;
+        left:22%;
+        font-size: 58px;
+        line-height: 3.5rem;
+        /* background-color: red; */
+    }
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 950px){
+    .slogan{
+        position: absolute;
+        top: 45%;
+        left:15%;
+        font-size: 40px;
+        line-height: 3.5rem;
+        /* background-color: red; */
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .slogan{
+        position: absolute;
+        top:15%;
+        left:8%;
+        font-size: 30px;
+        line-height: 2.5rem;
+        /* background-color: red; */
+    }
+    .slogan > button{
+        width: 94px;
+        /* background: yellow; */
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .slogan{
+        /* position: absolute; */
+        top:45%;
+        left:20%;
+        font-size: 25px;
+        line-height: 2.5rem;
+        width: 300px;
+        /* background-color: red; */
+    }
+    .slogan > button{
+        width: 90px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .slogan{
+        /* position: absolute; */
+        top:50%;
+        left:10%;
+        font-size: 25px;
+        line-height: 2.5rem;
+        width: 300px;
+        /* background-color: red; */
+    }
+    .slogan > button{
+        width: 90px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .slogan{
+        /* position: absolute; */
+        top:40%;
+        left:1%;
+        font-size: 25px;
+        line-height: 2.5rem;
+        width: 300px;
+        /* background-color: red; */
+    }
+    .slogan > button{
+        width: 90px;
+        font-size: 10px;
+    }
+}
